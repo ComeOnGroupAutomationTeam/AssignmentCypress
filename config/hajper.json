@@ -1,0 +1,7 @@
+{
+	"baseUrl": "https://www.hajper.com",
+	"env": {
+		"brand": "hajper"
+	},
+	"integrationFolder": "cypress/integration"
+}

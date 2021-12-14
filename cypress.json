@@ -1,0 +1,17 @@
+{
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 14000,
+  "pageLoadTimeout": 120000,
+  "viewportWidth": 375,
+  "viewportHeight": 667,
+  "requestTimeout": 10000,
+  "responseTimeout": 200000,
+  "waitForAnimations": true,
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+  "screenshotsFolder": "mochawesome-report",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "retries": 1
+}

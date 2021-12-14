@@ -1,0 +1,23 @@
+{
+  "name": "comeon-assignment",
+  "version": "1.0.0",
+  "description": "Comeon Test Automation Assignment - Cypress",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ComeOnGroupAutomationTeam/AssignmentCypress"
+  },
+  "dependencies": {
+    "cypress": "9.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open:hajper:mobile": "cypress open --config-file config/hajper.json --env viewport=iphone-xr",
+    "cy:run:hajper:mobile": "cypress run --config-file config/hajper.json --env viewport=iphone-xr"
+  },
+  "author": "",
+  "license": "ISC"
+}
